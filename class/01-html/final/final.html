@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+   <title>final</title>
+   <link rel="stylesheet" href="final.css">
+   <script src="./final.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h3>코드캠프 회원가입</h3>
+        <div class="wrapper__text">
+            <div class="wrapper__text__input">
+                <input type="text" placeholder=" 이메일을 입력해주세요">
+            </div>
+
+            <div class="wrapper__text__input">
+                <input type="text" placeholder=" 이름을 입력해주세요">
+            </div>
+
+            <div class="wrapper__text__input">
+                <input type="text" placeholder=" 비밀번호를 입력해주세요">
+            </div>
+
+            <div class="wrapper__text__input">
+                <input type="text" placeholder=" 비밀번호를 다시 입력해주세요">
+            </div>    
+        </div>  
+
+        <div class="wrapper__phone">
+            <div class="wrapper__phone__text">
+                <input id="phone__text__input1" class="phone__text" maxlength="3" type="text" oninput="change()">
+            </div>
+            -
+            <div class="wrapper__phone__text">
+                <input id="phone__text__input2" class="phone__text" maxlength="4" type="text" oninput="change()">
+            </div>
+            -
+            <div class="wrapper__phone__text">
+                <input id="phone__text__input3"  class="phone__text" maxlength="4" type="text" oninput="activate()">
+            </div>
+        </div>
+
+        <div class="auth">
+            <div id="authsubmit2" class="authsubmit">
+                000000
+                <button id="authsubmit__submit" disabled onclick="submit()">인증번호 전송</button>
+            </div>
+            <div id="authcheck2" class="authcheck">
+                3:00
+                <button disabled>인증확인</button>
+            </div>
+        </div>
+
+        <div class="area" class="area2">
+            <select class="area">
+                <option selected disabled>지역을 선택하세요.</option>
+                <option value="">서울</option>
+                <option value="">경기</option>
+                <option value="">인천</option>
+            </select>
+        </div>
+
+        <div class="gender">
+            <input class="gender__textbox" type="radio" name="gender" id="">남성
+            <input class="gender__textbox" type="radio" name="gender" id="">여성
+        </div>
+
+        <div class="line">
+            <div class="line2"></div>
+        </div>
+        <div class="signup__button">
+            <div ><button disabled class="signup__button2">가입하기</button></div>
+        </div>
+    </div>    
+</body>
+</html>

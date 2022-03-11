@@ -1,0 +1,17 @@
+.redborder {
+    border: 1px solid red;
+}
+
+.blueborder {
+    border: 1px solid blue;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    border: 2px dotted rebeccapurple;
+}
+.btn:hover {
+    background-color: rebeccapurple;
+    color : white;
+}
